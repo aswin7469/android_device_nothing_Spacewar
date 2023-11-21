@@ -43,7 +43,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
-    hardware/nothing \
     hardware/google/pixel \
     vendor/qcom/opensource/usb/etc
 
