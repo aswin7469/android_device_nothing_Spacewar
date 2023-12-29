@@ -1,5 +1,9 @@
 # All unpinned blobs are extracted from Spacewar-T2.0-231110-1731
 
+# DRM (Widevine L1)
+vendor/lib/liboemcrypto.so
+vendor/lib64/liboemcrypto.so
+
 # ACDB
 vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
