@@ -44,6 +44,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
+    vendor/nxp/nfc \
     vendor/qcom/opensource/usb/etc
 
 # A/B
@@ -369,9 +370,9 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2.vendor \
-    android.hardware.nfc@1.0-impl:64 \
+    android.hardware.nfc@1.2-service.pn8x \
     NfcNci \
+    SecureElement \
     Tag
 
 # OMX
