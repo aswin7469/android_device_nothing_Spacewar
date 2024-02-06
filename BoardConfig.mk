@@ -123,6 +123,12 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/manifest_yupik.xml
 
+
+# KernelSU
+ifeq ($(BUILD_WITH_KSU),true)
+KERNEL_MAKE_FLAGS += CONFIG_KSU=y
+endif
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
