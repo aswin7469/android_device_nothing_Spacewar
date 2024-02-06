@@ -130,8 +130,6 @@ on property:service.bootanim.exit=1
     chown system system /sys/class/qcom-battery/charge_pump_enable
     chown system system /sys/class/qcom-battery/charge_power
     chown system system /sys/class/qcom-battery/wls_en
-    chown system system /sys/class/qcom-battery/input_suspend
-    chmod 0666 /sys/class/qcom-battery/input_suspend
 
 on property:service.bootanim.exit=0
     # Boot led effect placeholder
